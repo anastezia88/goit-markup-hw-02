@@ -99,7 +99,9 @@ ul {
 }
 
 /* наша команда */
-
+.teamwork {
+  background-color: #f5f4fa;
+}
 .teamwork h3 {
   font-weight: 500;
   font-size: 16px;
@@ -113,7 +115,12 @@ ul {
 }
 
 /* футер */
-
+.footer {
+  background-color: #2f303a;
+  color: var(--title-text-color);
+  font-weight: normal;
+  font-size: 14px;
+}
 .logo-footer {
   color: #000000;
   font-family: Raleway;
@@ -126,11 +133,31 @@ ul {
   color: var(--accent-color);
 }
 
-.adress .adress-info {
-  color: var(--accent-color);
+.adress-info {
+  color: var(--title-text-color);
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+}
+.adress-info span {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer b {
+  text-transform: uppercase;
+}
+
+.input {
+  color: rgba(255, 255, 255, 0.6);
+}
+.button {
+  color: var(--title-text-color);
+  background-color: var(--accent-color);
+  font-weight: 900;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  font-family: Roboto;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
 }
 /* экслюзив */
