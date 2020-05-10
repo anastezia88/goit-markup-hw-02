@@ -1,29 +1,40 @@
 /* общие */
 body {
-  background-color: #e5e5e5;
+  background-color:#FFFFFF; 
   color: #212121;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  
 }
 
-.logo{
-    color: #212121;
+.logo {
+    color: #000000;
     font-family: Raleway;
     font-style: normal;
+    font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2px;
     letter-spacing: 0.03em;
+    text-decoration: none;
+
 }
 
 .logo > span {
     color: #2196f3;
 }
-.list {
-list-style: none;
+.list .link{
 
+text-decoration: none;
+list-style-type: square;
+
+}
+.list > a{
+    list-style: square;
 }
 .site-nav a {
     color: #212121;
-    text-decoration: none;
-}
+    list-style: none;
+    
+   }
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: #2196f3;
@@ -31,7 +42,9 @@ list-style: none;
 
 .auth-nav a {
     color: #757575;
-    text-decoration: none;
+    list-style: square;
+
+    
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
