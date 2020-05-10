@@ -1,135 +1,136 @@
 /* общие */
 :root {
-    --primary-text-color:#212121;
-    --title-text-color:#ffffff;
-    --accent-color: #2196f3;
-    --text-color: #757575;
-
+  --primary-text-color: #212121;
+  --title-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --text-color: #757575;
 }
 body {
-  background-color:var(--title-text-color);
-  color:var(--primary-text-color);
+  background-color: var(--title-text-color);
+  color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-   
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
 .logo {
-    color: #000000;
-    font-family: Raleway;
-    font-style: normal;
-    font-size: 26px;
-    line-height: 1.14px;    
-    text-decoration: none;
-
+  color: #000000;
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.14px;
+  text-decoration: none;
 }
 
 .logo > span {
-    color:var(--accent-color);
+  color: var(--accent-color);
 }
-.list .link{
-    text-decoration: none;
+.list .link {
+  text-decoration: none;
 }
 
 .site-nav a {
-    color: var(--primary-text-color);
-    list-style: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14px;
-    letter-spacing: 0.02em;
-   
-    
-   }
+  color: var(--primary-text-color);
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color:var(--accent-color);
-    }
-
+  color: var(--accent-color);
+}
 
 .auth-nav a {
-    color:var(--text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14px;
-    letter-spacing: 0.02em;
-    
-
-    
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* заголовки */
 .section-title {
-font-weight: bold;
-font-size: 36px;
-line-height: 1.2px;
-
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2px;
 }
 
 /* герой */
 .hero-title {
-font-weight: 900;
-font-size: 44px;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color:var(--title-text-color);
-background-color: yellowgreen;
+  font-weight: 900;
+  font-size: 44px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+  background-color: yellowgreen;
 }
 
 .features .title {
-font-weight: bold;
-font-size: 14px;
-line-height: 1.2px;
-text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2px;
+  text-transform: uppercase;
 }
 .features p {
-    font-size: 14px;
-    line-height: 1.7px;
-    color:var(--text-color);
-    
+  font-size: 14px;
+  line-height: 1.7px;
+  color: var(--text-color);
 }
-
 
 /* список ссылок приложений */
 
-.section a{
-font-weight: bold;
-font-size: 14px;
-line-height: 1.2px;
-text-transform: uppercase;
-color:var(--title-text-color);
-text-decoration: none;
-background-color: chartreuse;
+.section a {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2px;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+  text-decoration: none;
+  background-color: chartreuse;
 }
 
-/* цвета */
-color: #212121;
-color: #757575;
-color: #ffffff;
-color: #2196f3;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+/* наша команда */
 
-logo 
-font-family: Raleway;
+.teamwork h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18px;
+}
+
+.teamwork p {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.2px;
+}
+
+/* футер */
+
+.logo-footer {
+  color: #000000;
+  font-family: Raleway;
   font-style: normal;
   font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  font-size: 22px;
+  line-height: 1.18px;
+}
+.logo-footer span {
+  color: var(--accent-color);
 }
 
-
+.adress .adress-info {
+  color: var(--accent-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
 /* экслюзив */
