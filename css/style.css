@@ -20,7 +20,7 @@ ul {
   font-family: Raleway;
   font-style: normal;
   font-size: 26px;
-  line-height: 1.14px;
+  line-height: 1.14;
   text-decoration: none;
 }
 
@@ -30,13 +30,15 @@ ul {
 .list .link {
   text-decoration: none;
 }
-
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 .site-nav a {
   color: var(--primary-text-color);
   list-style: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
@@ -48,7 +50,7 @@ ul {
   color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .auth-nav .link:hover,
@@ -60,7 +62,7 @@ ul {
 .section-title {
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.2px;
+  line-height: 1.2;
 }
 
 /* герой */
@@ -68,6 +70,7 @@ ul {
   font-weight: 900;
   font-size: 44px;
   text-align: center;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--title-text-color);
@@ -77,12 +80,12 @@ ul {
 .features .title {
   font-weight: bold;
   font-size: 14px;
-  line-height: 1.2px;
+  line-height: 1.2;
   text-transform: uppercase;
 }
 .features p {
   font-size: 14px;
-  line-height: 1.7px;
+  line-height: 1.7;
   color: var(--text-color);
 }
 
@@ -91,7 +94,7 @@ ul {
 .section a {
   font-weight: bold;
   font-size: 14px;
-  line-height: 1.2px;
+  line-height: 1.2;
   text-transform: uppercase;
   color: var(--title-text-color);
   text-decoration: none;
@@ -105,13 +108,13 @@ ul {
 .teamwork h3 {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18px;
+  line-height: 1.18;
 }
 
 .teamwork p {
   color: var(--text-color);
   font-size: 16px;
-  line-height: 1.2px;
+  line-height: 1.2;
 }
 
 /* футер */
@@ -127,7 +130,7 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
-  line-height: 1.18px;
+  line-height: 1.18;
 }
 .logo-footer span {
   color: var(--accent-color);
@@ -137,16 +140,20 @@ ul {
   color: var(--title-text-color);
   font-style: normal;
   font-size: 14px;
+  line-height: 1.7;
 }
 .adress-info span {
   color: rgba(255, 255, 255, 0.6);
+  line-height: 1.7;
 }
 .footer b {
   text-transform: uppercase;
+  line-height: 1.14;
 }
 
 .input {
   color: rgba(255, 255, 255, 0.6);
+  line-height: 1.8;
 }
 .button {
   color: var(--title-text-color);
@@ -155,9 +162,16 @@ ul {
   font-size: 16px;
   letter-spacing: 0.06em;
   font-family: Roboto;
+  line-height: 1.8;
 }
 .copyright {
   color: rgba(255, 255, 255, 0.4);
   font-size: 12px;
 }
-/* экслюзив */
+/* страница портфолио */
+.filter {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
