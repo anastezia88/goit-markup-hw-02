@@ -190,3 +190,7 @@ ul {
 .works a {
   text-decoration: none;
 }
+a:active,
+a:focus {
+  outline: none;
+}
